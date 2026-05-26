@@ -1,4 +1,6 @@
 ---
+import { Image } from 'astro:assets';
+import heroImage from '../assets/kidiko-ai-hero.png';
 import Button from './Button.astro';
 import Badge from './Badge.astro';
 import { resolvePath } from '../utils/navigation';
@@ -42,12 +44,12 @@ import { resolvePath } from '../utils/navigation';
     </div>
 
     <div class="hero-image opacity-0 w-full max-w-2xl lg:justify-self-end">
-      <img
-        src={resolvePath('/images/kidiko-ai-hero.png')}
+      <Image
+        src={heroImage}
         alt="Ilustrasi Kidiko AI untuk grup belajar WhatsApp dan dashboard guru"
         class="w-full rounded-xl border border-slate-200 bg-slate-100 shadow-2xl shadow-slate-900/10 dark:border-slate-800 dark:bg-slate-900"
-        width="1536"
-        height="864"
+        width={1024}
+        height={576}
         loading="eager"
       />
     </div>
