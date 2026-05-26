@@ -1,0 +1,87 @@
+---
+import Button from './Button.astro';
+import Badge from './Badge.astro';
+import { resolvePath } from '../utils/navigation';
+---
+
+<section class="relative overflow-hidden border-b border-slate-200 bg-white dark:border-slate-800 dark:bg-[#09090b]">
+  <div class="absolute inset-x-0 top-0 h-2 bg-[linear-gradient(90deg,#2563eb,#f59e0b,#fbbf24)]"></div>
+  <div class="container mx-auto grid min-h-[calc(100vh-4rem)] items-center gap-12 px-4 py-16 sm:px-6 lg:grid-cols-2 lg:px-8 lg:py-20">
+    <div class="hero-content opacity-0">
+      <Badge variant="primary" class="mb-6 border border-primary-200 bg-primary-50 text-primary-800 dark:border-primary-800 dark:bg-primary-900/30 dark:text-primary-100">
+        AI belajar di grup WhatsApp
+      </Badge>
+      <h1 class="max-w-4xl text-5xl font-heading font-extrabold leading-[1.08] text-slate-950 dark:text-white sm:text-6xl lg:text-7xl">
+        Selamat datang di <span class="text-gradient">Kidiko</span>
+      </h1>
+      <p class="mt-7 max-w-2xl text-lg leading-8 text-slate-600 dark:text-slate-300 sm:text-xl">
+        Kidiko membantu siswa bertanya ke AI langsung dari grup WA, memakai materi RAG agar jawaban lebih tepat, dan memberi guru kontrol untuk memantau serta memvalidasi aktivitas belajar.
+      </p>
+      <div class="mt-10 flex flex-col gap-3 sm:flex-row">
+        <Button href={resolvePath('/penawaran/')} variant="primary" size="lg" class="w-full sm:w-auto">
+          Lihat Penawaran
+        </Button>
+        <Button href={resolvePath('/tentang/')} variant="outline" size="lg" class="w-full bg-white sm:w-auto dark:bg-slate-900">
+          Tentang Kidiko
+        </Button>
+      </div>
+      <div class="mt-10 grid max-w-2xl grid-cols-3 gap-4 text-sm text-slate-600 dark:text-slate-300">
+        <div class="stat-item border-l-4 border-primary-500 pl-3">
+          <strong class="block text-2xl text-slate-950 dark:text-white">WA</strong>
+          Ringan untuk sinyal rendah
+        </div>
+        <div class="stat-item border-l-4 border-accent-500 pl-3">
+          <strong class="block text-2xl text-slate-950 dark:text-white">RAG</strong>
+          Jawaban sesuai materi
+        </div>
+        <div class="stat-item border-l-4 border-amber-500 pl-3">
+          <strong class="block text-2xl text-slate-950 dark:text-white">Guru</strong>
+          Tetap memonitor kelas
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-image opacity-0 w-full max-w-2xl lg:justify-self-end">
+      <img
+        src={resolvePath('/images/kidiko-ai-hero.png')}
+        alt="Ilustrasi Kidiko AI untuk grup belajar WhatsApp dan dashboard guru"
+        class="w-full rounded-xl border border-slate-200 bg-slate-100 shadow-2xl shadow-slate-900/10 dark:border-slate-800 dark:bg-slate-900"
+        width="1536"
+        height="864"
+        loading="eager"
+      />
+    </div>
+  </div>
+
+  <script>
+    import { gsap } from 'gsap';
+
+    function initHeroAnimation() {
+      // Clear any existing styles to prevent animation conflicts
+      gsap.set('.hero-content, .hero-image, .hero-content > *', { clearProps: 'all' });
+
+      const tl = gsap.timeline({ defaults: { ease: 'expo.out', duration: 1.2 } });
+
+      tl.fromTo('.hero-content', 
+        { opacity: 0, y: 20 }, 
+        { opacity: 1, y: 0, duration: 0.5 }
+      )
+      .from('.hero-content > *', {
+        y: 30,
+        opacity: 0,
+        stagger: 0.1,
+      }, '-=0.3')
+      .fromTo('.hero-image', 
+        { x: 50, opacity: 0 }, 
+        { x: 0, opacity: 1, duration: 1.5 }, 
+        '-=1'
+      );
+    }
+
+    // Run on initial load
+    initHeroAnimation();
+    
+    // Run on View Transitions navigation
+    document.addEventListener('astro:page-load', initHeroAnimation);
+  </script>
+</section>

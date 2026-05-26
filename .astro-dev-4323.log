@@ -1,0 +1,123 @@
+
+> kidiko-id@0.0.1 dev
+> astro dev --host 127.0.0.1 --port 4323
+
+[vite] connected.
+[2m17.11.34[22m [34m[types][39m Generated [2m1ms[22m
+[vite] connected.
+[2m17.11.35[22m [34m[content][39m Syncing content
+[2m17.11.35[22m [34m[content][39m Synced content
+[42m[1m astro [22m[49m [32mv6.3.7[39m [2mready in[22m 1701 [2mms[22m
+[2m┃[22m Local    [36mhttp://127.0.0.1:4323/[39m
+[2m17.11.35[22m [32mwatching for file changes...[39m
+[2m17.12.04[22m [34m[200][39m / [2m71ms[22m
+[2m17.12.04[22m [34m[200][39m / [2m71ms[22m
+[2m17.12.18[22m [34m[watch][39m /src/styles/global.css
+[2m17.12.27[22m [34m[200][39m / [2m19ms[22m
+[2m17.12.27[22m [34m[200][39m / [2m21ms[22m
+[2m17.13.00[22m [34m[watch][39m /src/styles/global.css
+[2m17.13.10[22m [34m[200][39m / [2m38ms[22m
+[2m17.13.10[22m [34m[200][39m / [2m38ms[22m
+[2m17.14.31[22m [34m[watch][39m /src/styles/global.css
+[2m17.14.31[22m [34m[watch][39m /src/styles/global.css
+[2m17.14.31[22m [34m[watch][39m /src/styles/global.css
+[2m17.14.31[22m [34m[watch][39m /src/styles/global.css
+[2m17.14.31[22m [34m[watch][39m /src/styles/global.css
+[2m17.14.31[22m [34m[watch][39m /src/styles/global.css
+[2m17.14.31[22m [34m[watch][39m /src/styles/global.css
+[2m17.14.31[22m [34m[watch][39m /src/styles/global.css
+[2m17.14.31[22m [34m[watch][39m /src/styles/global.css
+[2m17.14.31[22m [34m[watch][39m /src/styles/global.css
+[2m17.14.40[22m [34m[200][39m / [2m29ms[22m
+[2m17.14.40[22m [34m[watch][39m playwright-report/index.html
+[vite] program reload
+[vite] An error happened during full reload
+Failed to load url astro:server-app.js (resolved id: astro:server-app.js). Does the file exist?
+Error: Failed to load url astro:server-app.js (resolved id: astro:server-app.js). Does the file exist?
+    at loadAndTransform (file:///D:/3.%20WebDev/1.%20Astro%20JS/kidiko.id/node_modules/vite/dist/node/chunks/config.js:22679:33)
+[2m17.14.56[22m [34m[200][39m / [2m17ms[22m
+[2m17.14.56[22m [34m[200][39m / [2m5ms[22m
+[2m17.14.58[22m [34m[200][39m / [2m31ms[22m
+[2m17.14.58[22m [34m[200][39m / [2m6ms[22m
+[2m17.14.58[22m [34m[200][39m / [2m5ms[22m
+[2m17.14.58[22m [34m[200][39m / [2m5ms[22m
+[2m17.14.59[22m [34m[200][39m / [2m9ms[22m
+[2m17.14.59[22m [34m[200][39m /sitemap.xml [2m47ms[22m
+[2m17.14.59[22m [34m[200][39m /toko/ [2m83ms[22m
+[2m17.15.00[22m [34m[200][39m /robots.txt [2m1ms[22m
+[2m17.15.00[22m [34m[200][39m / [2m7ms[22m
+[2m17.15.00[22m [34m[200][39m /kontak/ [2m80ms[22m
+[2m17.15.00[22m [34m[200][39m /tentang/ [2m98ms[22m
+[2m17.15.00[22m [34m[200][39m /blog/kidiko-ai-whatsapp-pendidikan/ [2m962ms[22m
+[2m17.15.01[22m [34m[200][39m /impact/ [2m46ms[22m
+[2m17.15.01[22m [34m[200][39m /product/toefl-itp-kidiko/ [2m48ms[22m
+[2m17.15.01[22m [34m[200][39m /toefl-itp/ [2m61ms[22m
+[2m17.15.01[22m [34m[200][39m /product/paket-keluarga-grup-wa-dika-maksimal-5-peserta/ [2m5ms[22m
+[2m17.15.01[22m [34m[200][39m /product/paket-kelas-grup-wa-diko-maksimal-50-peserta/ [2m7ms[22m
+[2m17.15.01[22m [34m[200][39m /product/paket-keluarga-grup-wa-diko-maksimal-5-peserta/ [2m8ms[22m
+[2m17.15.02[22m [34m[200][39m / [2m7ms[22m
+[2m17.15.02[22m [34m[200][39m / [2m6ms[22m
+[2m17.15.02[22m [34m[200][39m /penawaran/ [2m119ms[22m
+[2m17.15.02[22m [34m[200][39m /blog/kidiko-ai-whatsapp-pendidikan/ [2m11ms[22m
+[2m17.15.02[22m [34m[200][39m /product/paket-komunitas-grup-wa-diki-maksimal-50-peserta/ [2m5ms[22m
+[2m17.15.02[22m [34m[200][39m /toko/ [2m7ms[22m
+[2m17.15.03[22m [34m[200][39m /author/kidiko/ [2m164ms[22m
+[2m17.15.03[22m [34m[200][39m /sitemap.xml [2m1ms[22m
+[2m17.15.03[22m [34m[200][39m /kontak/ [2m9ms[22m
+[2m17.15.03[22m [34m[200][39m /tentang/ [2m5ms[22m
+[2m17.15.03[22m [34m[200][39m /robots.txt [2m1ms[22m
+[2m17.15.03[22m [34m[200][39m /product/paket-kelas-grup-wa-dika-maksimal-50-peserta/ [2m5ms[22m
+[2m17.15.03[22m [34m[200][39m /impact/ [2m14ms[22m
+[2m17.15.03[22m [34m[200][39m / [2m6ms[22m
+[2m17.15.03[22m [34m[200][39m /product/toefl-itp-kidiko/ [2m8ms[22m
+[2m17.15.03[22m [34m[200][39m /product-category/paket-ai/ [2m89ms[22m
+[2m17.15.03[22m [34m[200][39m /toefl-itp/ [2m9ms[22m
+[2m17.15.04[22m [34m[200][39m /blog/ [2m65ms[22m
+[2m17.15.04[22m [34m[200][39m /product/paket-keluarga-grup-wa-dika-maksimal-5-peserta/ [2m5ms[22m
+[2m17.15.04[22m [34m[200][39m / [2m10ms[22m
+[2m17.15.04[22m [34m[200][39m /product/paket-kelas-grup-wa-diko-maksimal-50-peserta/ [2m7ms[22m
+[2m17.15.04[22m [34m[200][39m /pengembang/ [2m63ms[22m
+[2m17.15.04[22m [34m[200][39m /blog/kidiko-ai-whatsapp-pendidikan/ [2m10ms[22m
+[2m17.15.04[22m [34m[200][39m /product/paket-keluarga-grup-wa-diko-maksimal-5-peserta/ [2m8ms[22m
+[2m17.15.04[22m [34m[200][39m /product/paket-kawan-grup-wa-diki-maksimal-5-peserta/ [2m6ms[22m
+[2m17.15.04[22m [34m[200][39m /penawaran/ [2m5ms[22m
+[2m17.15.04[22m [34m[200][39m /toko/ [2m13ms[22m
+[2m17.15.04[22m [34m[200][39m /product/paket-komunitas-grup-wa-diki-maksimal-50-peserta/ [2m5ms[22m
+[2m17.15.05[22m [34m[200][39m /kontak/ [2m5ms[22m
+[2m17.15.05[22m [34m[200][39m /author/kidiko/ [2m8ms[22m
+[2m17.15.05[22m [34m[200][39m /tentang/ [2m9ms[22m
+[2m17.15.05[22m [34m[200][39m /product/paket-kelas-grup-wa-dika-maksimal-50-peserta/ [2m7ms[22m
+[2m17.15.05[22m [34m[200][39m /impact/ [2m5ms[22m
+[2m17.15.05[22m [34m[200][39m /product-category/paket-ai/ [2m4ms[22m
+[2m17.15.05[22m [34m[200][39m /product/toefl-itp-kidiko/ [2m5ms[22m
+[2m17.15.05[22m [34m[200][39m /blog/ [2m11ms[22m
+[2m17.15.05[22m [34m[200][39m /toefl-itp/ [2m5ms[22m
+[2m17.15.05[22m [34m[200][39m /pengembang/ [2m6ms[22m
+[2m17.15.05[22m [34m[200][39m /product/paket-keluarga-grup-wa-dika-maksimal-5-peserta/ [2m6ms[22m
+[2m17.15.05[22m [34m[200][39m /product/paket-kawan-grup-wa-diki-maksimal-5-peserta/ [2m5ms[22m
+[2m17.15.05[22m [34m[200][39m /product/paket-kelas-grup-wa-diko-maksimal-50-peserta/ [2m5ms[22m
+[2m17.15.06[22m [34m[200][39m /product/paket-keluarga-grup-wa-diko-maksimal-5-peserta/ [2m7ms[22m
+[2m17.15.06[22m [34m[200][39m / [2m8ms[22m
+[2m17.15.06[22m [34m[200][39m / [2m8ms[22m
+[2m17.15.06[22m [34m[200][39m /penawaran/ [2m7ms[22m
+[2m17.15.06[22m [34m[200][39m /product/paket-komunitas-grup-wa-diki-maksimal-50-peserta/ [2m6ms[22m
+[2m17.15.06[22m [34m[200][39m /author/kidiko/ [2m4ms[22m
+[2m17.15.06[22m [34m[200][39m /product/paket-kelas-grup-wa-dika-maksimal-50-peserta/ [2m5ms[22m
+[2m17.15.06[22m [34m[200][39m /sitemap.xml [2m1ms[22m
+[2m17.15.06[22m [34m[200][39m /robots.txt [2m0ms[22m
+[2m17.15.06[22m [34m[200][39m /product-category/paket-ai/ [2m5ms[22m
+[2m17.15.06[22m [34m[200][39m /blog/ [2m4ms[22m
+[2m17.15.07[22m [34m[200][39m /pengembang/ [2m3ms[22m
+[2m17.15.07[22m [34m[200][39m /product/paket-kawan-grup-wa-diki-maksimal-5-peserta/ [2m2ms[22m
+[2m17.15.07[22m [34m[watch][39m playwright-report/index.html
+[2m17.16.58[22m [34m[200][39m / [2m7ms[22m
+[2m17.17.04[22m [34m[200][39m /kontak/ [2m2ms[22m
+[2m17.17.09[22m [34m[200][39m /product/paket-keluarga-grup-wa-dika-maksimal-5-peserta/ [2m4ms[22m
+[2m17.17.09[22m [34m[200][39m /product/paket-kelas-grup-wa-diko-maksimal-50-peserta/ [2m3ms[22m
+[2m17.17.13[22m [34m[200][39m /impact/ [2m2ms[22m
+[2m17.17.14[22m [34m[200][39m /penawaran/ [2m4ms[22m
+[2m17.17.15[22m [34m[200][39m /toefl-itp/ [2m3ms[22m
+[2m17.17.23[22m [34m[200][39m /blog/ [2m39ms[22m
+[2m17.17.25[22m [34m[200][39m /pengembang/ [2m2ms[22m
+[2m17.17.26[22m [34m[200][39m /author/kidiko/ [2m2ms[22m
+[2m17.17.34[22m [34m[200][39m /tentang/ [2m3ms[22m

@@ -1,0 +1,48 @@
+{
+  "name": "kidiko-id",
+  "description": "Kidiko.id, AI pendamping belajar di grup WhatsApp untuk siswa, guru, dan komunitas pendidikan.",
+  "type": "module",
+  "version": "0.0.1",
+  "license": "MIT",
+  "homepage": "https://kidiko.id/",
+  "repository": {
+    "type": "git",
+    "url": "https://kidiko.id/"
+  },
+  "bugs": {
+    "url": "https://kidiko.id/kontak/"
+  },
+  "keywords": [
+    "astro",
+    "astro-theme",
+    "tailwindcss",
+    "education",
+    "ai",
+    "whatsapp",
+    "indonesia"
+  ],
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "test:e2e": "playwright test",
+    "test:e2e:ui": "playwright test --ui",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/mdx": "^5.0.6",
+    "@fontsource-variable/inter": "^5.2.8",
+    "@fontsource-variable/space-grotesk": "^5.2.10",
+    "@tailwindcss/vite": "^4.3.0",
+    "astro": "^6.3.7",
+    "gsap": "^3.15.0",
+    "tailwindcss": "^4.3.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "@tailwindcss/typography": "^0.5.19"
+  }
+}
